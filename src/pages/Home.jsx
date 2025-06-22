@@ -7,7 +7,7 @@ import arrowDown from "../assets/mouse.svg";
 const Home = () => {
   return (
     <Element name="Home">
-      <section className=" h-full flex flex-col md:flex-row justify-center items-center text-wrap pt-20 ">
+      <section className="pt-20 h-full flex flex-col md:flex-row justify-center items-center ">
         <div className="md:w-1/2 space-y-4 ml-8 ">
           <h1 className=" text-2xl md:text-6xl">
             Digitizing Ideas with Clean Code & Modern Design
