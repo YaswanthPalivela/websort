@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu, FiX } from "react-icons/fi";
-import globe from '../assets/globe.svg' // Adjust path accordingly
+import globe from '../assets/globe.svg' 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

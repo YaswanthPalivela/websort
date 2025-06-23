@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../components/button";
-import Laptop from "../assets/laptop.png";
+import Laptop from "../assets/Laptop.png";
 import Bulb from "../assets/Bulb.png";
 import { Element } from "react-scroll";
 
