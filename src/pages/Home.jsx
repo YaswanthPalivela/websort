@@ -8,6 +8,8 @@ const Home = () => {
   return (
     <Element name="Home">
       <section className=" h-screen flex flex-col md:flex-row justify-center items-center leading-3 pt-3 md:p-5 ">
+      <section className=" h-full md:h-screen flex flex-col md:flex-row justify-center items-center leading-3 pt-36 md:p-5">
+
 
       <div className="pt-20 flex flex-col md:flex-row justify-center items-center ">
         <div className="md:w-1/2 space-y-4 ml-4 ">
@@ -43,6 +45,7 @@ const Home = () => {
           <img src={wireframe} className="h-full md:w-full object-cover" />
         </div>
       </div>
+      </section>
       </section>
     </Element>
   );
