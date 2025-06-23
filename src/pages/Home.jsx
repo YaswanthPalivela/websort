@@ -7,10 +7,10 @@ import arrowDown from "../assets/mouse.svg";
 const Home = () => {
   return (
     <Element name="Home">
-      <section className=" h-full flex flex-col md:flex-row justify-center items-center leading-3 pt-36 ">
+      <section className=" h-screen flex flex-col md:flex-row justify-center items-center leading-3 pt-3 md:p-5 ">
 
-      <section className="pt-20 h-full flex flex-col md:flex-row justify-center items-center ">
-        <div className="md:w-1/2 space-y-4 ml-8 ">
+      <div className="pt-20 flex flex-col md:flex-row justify-center items-center ">
+        <div className="md:w-1/2 space-y-4 ml-4 ">
 
           <h1 className=" text-2xl md:text-6xl">
             Digitizing Ideas with Clean Code & Modern Design
@@ -42,7 +42,7 @@ const Home = () => {
         <div className="md:w-1/2 flex flex-col md:flex-row justify-center items-center">
           <img src={wireframe} className="h-full md:w-full object-cover" />
         </div>
-      </section>
+      </div>
       </section>
     </Element>
   );
