@@ -10,8 +10,8 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-slate-900 text-lightGray fixed w-full z-50 shadow-md">
-      <div className="flex justify-between items-center px-6 py-4">
+    <nav className="bg-slate-900 text-lightGray fixed w-screen z-50 shadow-md">
+      <div className="flex justify-between items-center px-6 py-3">
         {/* Logo and title */}
         <div className="flex items-center gap-4">
           <img src={globe} alt="WebSort Logo" className="h-12 bg-amber-500 p-1 rounded" />
@@ -22,9 +22,9 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex items-center gap-8 text-lg font-medium">
+        <ul className="hidden md:flex items-center gap-8 text-lg font-medium mr-8">
           {["Home", "About", "Services", "Contact"].map((section) => (
-            <li key={section} className="hover:text-gold transition-colors">
+            <li key={section} className="hover:text-gold transition-colors hover:cursor-pointer">
               <Link to={section} smooth={true} duration={500}>
                 {section}
               </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden bg-slate-800 text-white px-6 py-4 space-y-4 transition-all duration-300 ease-in-out ${
+        className={`md:hidden bg-slate-800 text-white px-3 py-2 space-y-2 transition-all duration-300 ease-in-out ${
           isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >

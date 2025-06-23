@@ -5,9 +5,9 @@ import Button from "../components/button";
 const Oppurtunities = () => {
   return (
     <section>
-      <div className="h-60 ">
-        <div className="bg-gold p-5 flex flex-col justify-center items-center gap-4">
-          <h1 className="text-2xl md:text-5xl text-black font-bold mb-4">
+      <div className="h-full ">
+        <div className="bg-gold p-3 flex flex-col justify-center items-center">
+          <h1 className="text-2xl md:text-5xl text-black font-bold mb-4 text-center">
             See What Opportunities Await You
           </h1>
           <Button

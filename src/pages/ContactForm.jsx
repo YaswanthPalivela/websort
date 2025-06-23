@@ -45,7 +45,7 @@ const ContactForm = () => {
      <div className="w-full min-h-screen bg-black flex items-center justify-center px-4 py-12">
       <div className=" w-full grid grid-cols-1 md:grid-cols-2 gap-8 shadow-2xl rounded-2xl overflow-hidden">
         {/* Left Side Text */}
-        <div className="text-4xl md:text-8xl text-center flex items-center ">
+        <div className="text-3xl md:text-6xl text-center flex items-center ">
           <h1>
             Any Questions
             <span className="text-gold hover:text-yellow-500 hover: cursor-pointer">

@@ -28,9 +28,9 @@ const OurWork = () => {
             </div>
             <img src={Laptop} className="h-full object-contain mt-3" />
           </div>
-          <div className="bg-lightGray p-5 text-black md:h-1/2 flex flex-col md:flex-row justify-center items-center md:space-x-4">
+          <div className="bg-lightGray p-3 text-black md:h-1/2 flex flex-col md:flex-row justify-center items-center md:space-x-4">
             {/* Left Card Content */}
-            <div className="space-y-4 md:w-1/2 flex flex-col justify-center items-start ml-10">
+            <div className="space-y-4 md:w-1/2 flex flex-col justify-center items-start p-5">
               <h1 className="text-2xl md:text-6xl">Why We Stand Out</h1>
               <p className="text-base md:text-xl">
                 At WebSort, we pride ourselves on our attention to detail and

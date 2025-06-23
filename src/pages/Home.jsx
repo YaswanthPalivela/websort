@@ -1,18 +1,18 @@
 import React from "react";
 import Button from "../components/button";
 import wireframe from "../assets/wireframe.png";
-import {Link, Element } from "react-scroll";
+import { Link, Element } from "react-scroll";
 import arrowDown from "../assets/mouse.svg";
 
 const Home = () => {
   return (
     <Element name="Home">
-      <section className=" h-full flex flex-col md:flex-row justify-center items-center text-wrap pt-20 ">
-        <div className="md:w-1/2 space-y-4 ml-8 ">
+      <section className=" h-full flex flex-col md:flex-row justify-center items-center leading-3 pt-36 ">
+        <div className="md:w-1/2 space-y-4 ml-4 ">
           <h1 className=" text-2xl md:text-6xl">
             Digitizing Ideas with Clean Code & Modern Design
           </h1>
-          <p className="text-base md:text-xl">
+          <p className="text-base md:text-xl text-pretty">
             At WebSort, we transform your vision into reality with our expertise
             in web development and design. Our team is dedicated to delivering
             high-quality, user-friendly websites that not only look great but
@@ -31,7 +31,9 @@ const Home = () => {
               ButtonName="Know More"
               otherStyles=" border-2 border-gold"
             />
-            <div className=" animate-bounce"><img src={arrowDown} className="h-10"/></div>
+            <div className=" animate-bounce">
+              <img src={arrowDown} className="h-10" />
+            </div>
           </div>
         </div>
         <div className="md:w-1/2 flex flex-col md:flex-row justify-center items-center">
